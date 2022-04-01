@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/ndarray-base-buffer-ctors",
+  "version": "0.0.0",
+  "description": "ndarray data buffer constructors.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-buffer-ctors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "base",
+    "ndarray",
+    "dtypes",
+    "dtype",
+    "data",
+    "buffer",
+    "constructors",
+    "constructor",
+    "ctors",
+    "ctor",
+    "multidimensional",
+    "array",
+    "utilities",
+    "utility",
+    "utils",
+    "util"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
