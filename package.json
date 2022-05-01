@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-buffer-ctors",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "ndarray data buffer constructors.",
   "license": "Apache-2.0",
   "author": {
