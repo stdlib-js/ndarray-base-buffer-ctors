@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@v0.2.1-deno/mod.js';
 ```
 
 #### ctors( dtype )
@@ -109,7 +109,7 @@ var ctor = ctors( 'float' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@v0.2.1-deno/mod.js';
 
 var DTYPES = dtypes();
 var ctor;
