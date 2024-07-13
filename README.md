@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2018 The Stdlib Authors.
+Copyright (c) 2024 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -75,30 +75,14 @@ var ctors = require( '@stdlib/ndarray-base-buffer-ctors' );
 
 #### ctors( dtype )
 
-Returns an ndarray data buffer constructor for a specified data type.
+Returns an ndarray data buffer constructor for a specified [data type][@stdlib/ndarray/dtypes].
 
 ```javascript
 var ctor = ctors( 'float64' );
 // returns <Function>
 ```
 
-The function returns constructors for the following data types:
-
--   `binary`: binary.
--   `complex64`: single-precision complex floating-point numbers.
--   `complex128`: double-precision complex floating-point numbers.
--   `float32`: single-precision floating-point numbers.
--   `float64`: double-precision floating-point numbers.
--   `generic`: values of any type.
--   `int16`: signed 16-bit integers.
--   `int32`: signed 32-bit integers.
--   `int8`: signed 8-bit integers.
--   `uint16`: unsigned 16-bit integers.
--   `uint32`: unsigned 32-bit integers.
--   `uint8`: unsigned 8-bit integers.
--   `uint8c`: unsigned clamped 8-bit integers.
-
-If provided an unknown or unsupported data type, the function returns `null`.
+If provided an unknown or unsupported [data type][@stdlib/ndarray/dtypes], the function returns `null`.
 
 ```javascript
 var ctor = ctors( 'float' );
@@ -130,9 +114,9 @@ var dtypes = require( '@stdlib/ndarray-dtypes' );
 var ctors = require( '@stdlib/ndarray-base-buffer-ctors' );
 
 var DTYPES = dtypes();
+
 var ctor;
 var i;
-
 for ( i = 0; i < DTYPES.length; i++ ) {
     ctor = ctors( DTYPES[ i ] );
     console.log( ctor );
@@ -230,6 +214,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/ndarray-base-buffer-ctors/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-buffer-ctors/main/LICENSE
+
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
 </section>
 
