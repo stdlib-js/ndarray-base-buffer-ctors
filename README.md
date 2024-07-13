@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2018 The Stdlib Authors.
+Copyright (c) 2024 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -45,66 +45,44 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-buffer-ctors
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ctors = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ctors = require( 'path/to/vendor/umd/ndarray-base-buffer-ctors/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ctors;
-})();
-</script>
+var ctors = require( '@stdlib/ndarray-base-buffer-ctors' );
 ```
 
 #### ctors( dtype )
 
-Returns an ndarray data buffer constructor for a specified data type.
+Returns an ndarray data buffer constructor for a specified [data type][@stdlib/ndarray/dtypes].
 
 ```javascript
 var ctor = ctors( 'float64' );
 // returns <Function>
 ```
 
-The function returns constructors for the following data types:
-
--   `binary`: binary.
--   `complex64`: single-precision complex floating-point numbers.
--   `complex128`: double-precision complex floating-point numbers.
--   `float32`: single-precision floating-point numbers.
--   `float64`: double-precision floating-point numbers.
--   `generic`: values of any type.
--   `int16`: signed 16-bit integers.
--   `int32`: signed 32-bit integers.
--   `int8`: signed 8-bit integers.
--   `uint16`: unsigned 16-bit integers.
--   `uint32`: unsigned 32-bit integers.
--   `uint8`: unsigned 8-bit integers.
--   `uint8c`: unsigned clamped 8-bit integers.
-
-If provided an unknown or unsupported data type, the function returns `null`.
+If provided an unknown or unsupported [data type][@stdlib/ndarray/dtypes], the function returns `null`.
 
 ```javascript
 var ctor = ctors( 'float' );
@@ -131,28 +109,18 @@ var ctor = ctors( 'float' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var dtypes = require( '@stdlib/ndarray-dtypes' );
+var ctors = require( '@stdlib/ndarray-base-buffer-ctors' );
 
 var DTYPES = dtypes();
+
 var ctor;
 var i;
-
 for ( i = 0; i < DTYPES.length; i++ ) {
     ctor = ctors( DTYPES[ i ] );
     console.log( ctor );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -246,6 +214,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/ndarray-base-buffer-ctors/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-buffer-ctors/main/LICENSE
+
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
 </section>
 
