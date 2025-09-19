@@ -45,14 +45,19 @@
     "@stdlib/array-int16": "^0.2.2",
     "@stdlib/array-int32": "^0.2.2",
     "@stdlib/array-int8": "^0.2.2",
+    "@stdlib/array-struct-factory": "github:stdlib-js/array-struct-factory#main",
     "@stdlib/array-uint16": "^0.2.2",
     "@stdlib/array-uint32": "^0.2.2",
     "@stdlib/array-uint8": "^0.2.2",
     "@stdlib/array-uint8c": "^0.2.2",
-    "@stdlib/buffer-ctor": "^0.2.2"
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/buffer-ctor": "^0.2.2",
+    "@stdlib/ndarray-base-assert-is-struct-data-type": "github:stdlib-js/ndarray-base-assert-is-struct-data-type#main"
   },
   "devDependencies": {
-    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
+    "@stdlib/ndarray-dtype-ctor": "github:stdlib-js/ndarray-dtype-ctor#main",
     "@stdlib/ndarray-dtypes": "^0.3.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
