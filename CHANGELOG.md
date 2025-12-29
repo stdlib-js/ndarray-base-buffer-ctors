@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-19)
+## Unreleased (2025-12-29)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`760719b`](https://github.com/stdlib-js/stdlib/commit/760719b492247734f2778d4ace525d6719b2d202) - **refactor:** normalize a data type to a string _(by Athan Reines)_
 -   [`04c434a`](https://github.com/stdlib-js/stdlib/commit/04c434ac661b2f006a1ab737efb1dec2a72b0efd) - **docs:** update type _(by Athan Reines)_
 -   [`8d28862`](https://github.com/stdlib-js/stdlib/commit/8d28862f79b21b726cd80d47f85c73cf6d2d2d5c) - **feat:** add support for `struct` and `DataType` dtype values _(by Athan Reines)_
 
