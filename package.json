@@ -53,7 +53,8 @@
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/buffer-ctor": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-struct-data-type": "github:stdlib-js/ndarray-base-assert-is-struct-data-type#main",
-    "@stdlib/ndarray-base-dtype-resolve-str": "^0.2.2"
+    "@stdlib/ndarray-base-dtype-resolve-str": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
