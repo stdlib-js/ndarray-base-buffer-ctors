@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-buffer-ctors/tags). For example,
+
+```javascript
 import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@v0.4.0-deno/mod.js';
 ```
 
@@ -94,7 +99,7 @@ var ctor = ctors( 'float' );
 ```javascript
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@v0.4.0-deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@deno/mod.js';
 
 var dts = dtypes( 'integer_and_generic' );
 logEachMap( '%s => %s', dts, ctors );
