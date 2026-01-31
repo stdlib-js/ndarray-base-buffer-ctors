@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@esm/index.mjs';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@v0.4.0-esm/index.mjs';
 ```
 
 #### ctors( dtype )
@@ -99,7 +99,7 @@ var ctor = ctors( 'float' );
 
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@esm/index.mjs';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-buffer-ctors@v0.4.0-esm/index.mjs';
 
 var dts = dtypes( 'integer_and_generic' );
 logEachMap( '%s => %s', dts, ctors );
