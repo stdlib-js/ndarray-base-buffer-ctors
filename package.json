@@ -53,7 +53,8 @@
     "@stdlib/assert-is-function": "^0.2.2",
     "@stdlib/buffer-ctor": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-struct-data-type": "^0.1.0",
-    "@stdlib/ndarray-base-dtype-resolve-str": "^0.3.0"
+    "@stdlib/ndarray-base-dtype-resolve-str": "^0.3.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "^0.1.0",
