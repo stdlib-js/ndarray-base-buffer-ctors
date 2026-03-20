@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-20)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`a0084e4`](https://github.com/stdlib-js/stdlib/commit/a0084e42e84516d1b9031ce2994e8694a294b92f) - **bench:** refactor to use string interpolation in `ndarray/base/buffer-ctors` [(#11038)](https://github.com/stdlib-js/stdlib/pull/11038) _(by Partha Das)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Partha Das
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-08)
