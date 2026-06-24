@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-20)
+## Unreleased (2026-06-24)
+
+<section class="features">
+
+### Features
+
+-   [`585603b`](https://github.com/stdlib-js/stdlib/commit/585603b45bb17f82056940bd0cf3dca981a20fbb) - add support for `Float16Array`
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`585603b`](https://github.com/stdlib-js/stdlib/commit/585603b45bb17f82056940bd0cf3dca981a20fbb) - **feat:** add support for `Float16Array` _(by Athan Reines)_
 -   [`a0084e4`](https://github.com/stdlib-js/stdlib/commit/a0084e42e84516d1b9031ce2994e8694a294b92f) - **bench:** refactor to use string interpolation in `ndarray/base/buffer-ctors` [(#11038)](https://github.com/stdlib-js/stdlib/pull/11038) _(by Partha Das)_
 
 </details>
@@ -24,8 +35,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Partha Das
 
 </section>
