@@ -57,7 +57,7 @@
     "@stdlib/ndarray-base-dtype-resolve-str": "^0.3.1"
   },
   "devDependencies": {
-    "@stdlib/console-log-each-map": "^0.1.1",
+    "@stdlib/console-log-each-map": "^0.1.2",
     "@stdlib/dstructs-struct": "^0.1.1",
     "@stdlib/ndarray-dtype-ctor": "^0.1.1",
     "@stdlib/ndarray-dtypes": "^0.4.1",
